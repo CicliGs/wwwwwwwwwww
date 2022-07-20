@@ -1,0 +1,32 @@
+#pidor{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+#video{
+    width: 100%;
+    height: 100%;
+}
+#canvas{
+    width: 100%;
+    height: max-content;
+}
+.test{
+    max-height: max-content;
+}
+
+.start-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.okbutton{
+    margin-top: 450px;
+    position: absolute;
+    left: 50%;
+    width: 200px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
